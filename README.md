@@ -79,8 +79,3 @@ In this example the weights are the same but the structure of the layers are ind
 create_plot("Goal Movie", list("Movie 1","Movie 2","Movie 3"), list(0.749845, 0.855669, -0.807458, 0.290171, -0.439222, 0.844263, -0.237222, -0.622491), nodes = list(3,2,1), png.title = "example_3_2.png")
 ```
 ![Example 3.2](/examples/example_3_2.png#gh-dark-mode-only)
-
-
-## Rights
-
-All rights belong to Florian Eder. I do not allow any publications without letting me know. 
