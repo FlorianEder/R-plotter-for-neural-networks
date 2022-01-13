@@ -51,7 +51,7 @@ node.otl|String|color of node outlines, default: "#4F4F4F"|"black"
 text.col|String|color of text color (parameters, output), default: "white"|"#d4c63e"
 line.diff|float|difference between thinnest and broadest weight line, default: 4|8
 
-### Example
+### Examples
 
 #### Example 1
 ```r
