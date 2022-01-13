@@ -39,7 +39,7 @@ create_plot(output, parameters, weights, nodes = NULL, png.title=NULL, pos.col =
 **argument**|**type**|**description**|**example**
 :-----:|:-----:|:-----:|:-----:
 output|String|title of goal node.|"goal value"
-parameters|list|titles of input nodes.|list("input\_1","input\_2","input\_3","input\_4")
+parameters|list|titles of input nodes.|list("input\_1","input\_2","input\_3")
 weights|list[list[list[weight],...],...]|weights: [Layers[Node[Weight, ...], ...], …] |list(list(list(0.1, 0.2),list(0.4, 0.5),list(0.6, 0.7)),list(list(0.8),list(0.9)))
 weights|list|weights: [Weight, ...], requires nodes.|list(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9)
 nodes|list|list with amount of nodes per layer, default: NULL|list(3,2,1)
