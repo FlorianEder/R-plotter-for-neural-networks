@@ -67,12 +67,14 @@ create_plot("output", list("input_1","input_2","input_3"), list(list(list(0.1634
 ![Example 2](/examples/example_2.png#gh-dark-mode-only)
 
 #### Example 3.1 (counterexample)
+In this example the weights are stored as a list without indicating the structure of the layers.
 ```r
 create_plot("Goal Movie", list("Movie 1","Movie 2","Movie 3"), list(0.1634, -0.9503, 0.024, -0.0363642, 0.0217167, 0.358346, 0.2, -0.1641), png.title = "example_3_1.png")
 ```
 ![Example 3.1](/examples/example_3_1.png#gh-dark-mode-only)
 
 #### Example 3.2
+In this example the weights are the same but the structure of the layers are indicated. 
 ```r
 create_plot("Goal Movie", list("Movie 1","Movie 2","Movie 3"), list(0.749845, 0.855669, -0.807458, 0.290171, -0.439222, 0.844263, -0.237222, -0.622491), nodes = list(3,2,1), png.title = "example_3_2.png")
 ```
