@@ -1,4 +1,4 @@
-# R-plotter-for-neural-networks
+# R plotter for neural networks
 A tool to visualise neural networks in R
 [GitHub - FlorianEder/: R-plotter-for-neural-networks](https://github.com/FlorianEder/R-plotter-for-neural-networks)
 
