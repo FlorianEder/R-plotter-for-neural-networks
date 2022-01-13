@@ -1,5 +1,3 @@
-setwd("C:/Users/deede/OneDrive/Desktop/r_plotter")
-
 create_plot <- function(output, parameters, weights, nodes = NULL, png.title=NULL, pos.col = "#858585", neg.col = "#e23128", node.col = "#999999", node.otl = "#4F4F4F", text.col = "white", line.diff = 4){
   if(!is.null(nodes)&& is.list(nodes) && is.list(weights)){
     weights <- convert_to_structure(weights, nodes)
@@ -191,10 +189,3 @@ convert_to_structure <- function(weights, nodes){
   }
   return(nums)
 }
-
-nodes <- list(4, 3, 2, 1)
-weights <- list(0.1,-0.2,0.3,0.4,-0.5,0.6,0.7,-0.8,0.9,1.0,-1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,2.0)
-mov <- list()
-
-# create_plot("Goal Movie", list("input_1","input_2","input_3","input_4"), weights = weights, nodes = nodes, png.title = "plot.png")
-create_plot("output", list("input_1","input_2","input_3"), list(list(list(0.1634, -0.9503),list(0.024, -0.0363642),list(0.0217167, 0.358346)),list(list(0.2),list(-0.1641))), png.title = "example_2.png", pos.col = "#50eaa5", neg.col = "#c86660", node.col = "blue", node.otl = "black", text.col = "#d4c63e", line.diff = 8)
