@@ -55,7 +55,7 @@ line.diff|float|difference between thinnest and broadest weight line, default: 4
 
 #### Example 1
 ```r
-create_plot("Goal Movie", list("input_1","input_2","input_3"), list(list(list(0.1634, -0.9503),list(0.024, -0.0363642),list(0.0217167, 0.358346)),list(list(0.2),list(-0.1641))), png.title = "example_1.png")
+create_plot("Goal Movie", list("Movie 1","Movie 2","Movie 3"), list(list(list(0.1634, -0.9503),list(0.024, -0.0363642),list(0.0217167, 0.358346)),list(list(0.2),list(-0.1641))), png.title = "example_1.png")
 ```
 ![Example 1](/examples/example_1.png#gh-dark-mode-only)
 
