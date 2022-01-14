@@ -44,7 +44,7 @@ weights|list|weights: [Weight, ...], requires nodes.|list(0.1, 0.2, 0.3, 0.4, 0.
 nodes|list|list with amount of nodes per layer, default: NULL|list(3,2,1)
 png.title|String|title of .png file, enables creation of png, default: NULL|"plot.png"
 pos.col|String|color of weight line if weight >= 0, default: "#858585"|"#50eaa5"
-neg.col|String|color of weight line if weight < 0, default: "#858585"|"#c86660"
+neg.col|String|color of weight line if weight < 0, default: "#e23128"|"#c86660"
 node.col|String|color of node, default: "#999999"|"grey"
 node.otl|String|color of node outlines, default: "#4F4F4F"|"black"
 text.col|String|color of text color (parameters, output), default: "white"|"#d4c63e"
